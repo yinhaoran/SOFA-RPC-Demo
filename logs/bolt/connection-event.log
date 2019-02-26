@@ -1,0 +1,15 @@
+2019-02-26 14:01:48,360 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-6-thread-1] Connection channel registered: UNKNOWN-ADDR
+2019-02-26 14:01:48,361 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-6-thread-1] Try connect to 192.168.39.150:12200
+2019-02-26 14:01:48,368 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.39.150:12200
+2019-02-26 14:01:48,375 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.39.150:58514
+2019-02-26 14:01:48,376 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.39.150:58514
+2019-02-26 14:06:20,001 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection closed: 192.168.39.150:12200
+2019-02-26 14:06:20,002 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel inactive: 192.168.39.150:58514
+2019-02-26 14:06:20,002 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel unregistered: 192.168.39.150:58514
+2019-02-26 14:06:20,005 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel inactive: 192.168.39.150:12200
+2019-02-26 14:06:20,005 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel unregistered: 192.168.39.150:12200
+2019-02-26 15:18:19,619 INFO  [ConnectionEventHandler#292] [Rpc-netty-client-worker-6-thread-1] Connection channel registered: UNKNOWN-ADDR
+2019-02-26 15:18:19,620 INFO  [ConnectionEventHandler#80] [Rpc-netty-client-worker-6-thread-1] Try connect to 192.168.39.150:12200
+2019-02-26 15:18:19,627 INFO  [ConnectionEventHandler#290] [Rpc-netty-client-worker-6-thread-1] Connection channel active: 192.168.39.150:12200
+2019-02-26 15:18:19,633 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.39.150:63646
+2019-02-26 15:18:19,635 INFO  [ConnectionEventHandler#290] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.39.150:63646

@@ -1,0 +1,7 @@
+2019-02-26 14:01:18,550 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-02-26 14:01:19,096 WARN  [RpcServer#305] [main] Rpc Server stopped!
+2019-02-26 14:01:47,817 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-02-26 14:01:48,341 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-16-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-02-26 14:06:14,439 WARN  [RpcServer#305] [RMI TCP Connection(2)-127.0.0.1] Rpc Server stopped!
+2019-02-26 15:18:18,898 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-02-26 15:18:19,597 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-15-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes

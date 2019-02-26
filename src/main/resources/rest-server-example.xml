@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:sofa="http://sofastack.io/schema/sofaboot"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://sofastack.io/schema/sofaboot   http://sofastack.io/schema/sofaboot.xsd"
+	default-autowire="byName">
+
+	<bean id="helloSynServiceImpl"
+		class="com.example.service.impl.HelloSynServiceImpl" />
+	<sofa:service ref="helloSynServiceImpl"
+		interface="com.example.service.impl.HelloSynService">
+		<sofa:binding.bolt />
+	</sofa:service>
+	<sofa:reference
+		interface="com.example.service.impl.HelloSynService"
+		id="helloSyncServiceReference">
+		<sofa:binding.bolt />
+	</sofa:reference>
+
+
+	<bean id="PersonServiceImpl"
+		class="com.example.service.impl.PersonServiceImpl">
+	</bean>
+	<sofa:service ref="PersonServiceImpl"
+		interface="com.example.service.PersonService">
+		<sofa:binding.bolt />
+		<sofa:binding.rest />
+	</sofa:service>
+	<sofa:reference id="personReferenceBolt"
+		interface="com.example.service.PersonService">
+		<sofa:binding.bolt>
+			<!-- <sofa:global-attrs filter="personFilter"/> -->
+		</sofa:binding.bolt>
+	</sofa:reference>
+	<sofa:reference id="personReferenceRest"
+		interface="com.example.service.PersonService">
+		<sofa:binding.rest />
+	</sofa:reference>
+	<bean id="personFilter" class="com.example.PersonServiceFilter">
+	</bean>
+	<sofa:rpc-global-filter ref="personFilter" />
+	<bean class="com.example.service.impl.SimpleRestServiceImpl"
+		id="simpleRestService"></bean>
+
+	<bean id="simpleJvmService"
+		class="com.example.service.impl.SimpleJvmServiceImpl">
+		<property name="message" value="Hello,jvm service xml impl"></property>
+	</bean>
+
+	<sofa:service ref="simpleJvmService"
+		interface="com.example.service.SimpleJvmService">
+		<sofa:binding.jvm></sofa:binding.jvm>
+	</sofa:service>
+
+	<bean id="publishServiceWithClient"
+		class="com.example.publish.PublishServiceWithClient"
+		init-method="init">
+	</bean>
+	<bean id="annotationJvmServiceImpl"
+		class="com.example.service.impl.AnnotationJvmServiceImpl">
+	</bean>
+	<!-- <bean class="com.example.rest.OpenApiServiceImpl"
+		id="openApiServiceImpl"></bean> -->
+</beans>
