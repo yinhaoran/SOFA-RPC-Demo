@@ -1,0 +1,34 @@
+2019-03-10 10:20:46,553 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:20:47,441 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-15-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:33:43,534 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:33:45,058 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 10:33:46,624 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.PersonService-13-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 10:33:48,276 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:44:55,904 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:44:57,430 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 10:44:59,013 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.PersonService-13-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 10:45:00,616 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:47:50,533 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:47:52,066 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 10:47:53,642 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.PersonService-13-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 10:47:55,297 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:49:14,603 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 10:49:16,141 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 10:49:17,873 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.PersonService-13-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 10:49:19,878 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 11:02:45,783 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 11:02:47,323 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 11:02:49,230 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.PersonService-13-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 11:02:52,494 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 11:07:13,058 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 11:07:14,598 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 11:07:16,215 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.PersonService-13-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 11:07:18,027 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 11:12:04,713 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 11:12:06,280 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 11:12:07,861 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.PersonService-13-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 11:12:09,552 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 11:13:36,496 WARN  [RpcConnectionFactory#237] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2019-03-10 11:13:38,065 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.impl.HelloSynService-7-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 11:13:39,680 WARN  [RpcConnectionFactory#200] [SOFA-CLI-CONN-com.example.service.PersonService-13-T1] Create connection to 192.168.88.105:12200 error!
+2019-03-10 11:13:41,846 WARN  [RpcServer#884] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes

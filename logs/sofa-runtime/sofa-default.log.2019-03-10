@@ -1,0 +1,655 @@
+2019-03-10 10:14:35,484 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 10:14:42,094 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 10:14:42,095 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:14:42,100 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:14:42,100 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 10:14:42,100 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:14:42,102 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:14:42,102 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 10:14:42,102 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:14:42,102 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:14:42,190 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 10:14:42,190 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:14:42,902 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:14:42,903 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:14:42,958 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:14:42,958 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 10:20:38,956 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 10:20:43,205 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 10:20:43,205 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:20:43,208 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:20:43,209 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 10:20:43,209 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:20:43,209 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:20:43,209 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 10:20:43,209 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:20:43,209 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:20:43,281 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 10:20:43,281 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:20:43,947 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:20:43,947 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:20:43,984 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:20:43,985 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 10:20:44,011 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 10:20:44,011 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:20:44,011 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:20:44,011 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:20:44,012 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:20:44,012 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 10:20:44,019 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#-572449828
+2019-03-10 10:20:44,019 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:20:44,316 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:20:44,316 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:20:44,318 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:20:44,328 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 10:20:44,328 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:20:44,329 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:20:44,329 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:20:44,340 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:20:44,340 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:20:44,341 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:20:44,341 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:20:45,397 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:20:45,397 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 10:20:45,398 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-229747534
+2019-03-10 10:20:45,399 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:20:45,401 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:20:45,401 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:20:45,403 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:20:45,406 INFO  main                             - Registering component: reference:com.example.service.PersonService:#336281749
+2019-03-10 10:20:45,406 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:20:45,408 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:20:45,409 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:20:45,409 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:20:45,415 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 10:20:45,415 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:20:45,415 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:20:45,415 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:20:45,424 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:20:45,424 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 10:20:45,429 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 10:20:45,429 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:20:45,429 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:20:45,429 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:20:45,429 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:20:45,429 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 10:20:45,433 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:20:45,433 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:20:45,433 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:20:45,433 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:20:45,433 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:20:45,433 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:20:45,435 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:20:45,436 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:20:45,436 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:20:45,436 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:20:45,436 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:20:45,436 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:33:38,199 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 10:33:42,425 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 10:33:42,425 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:33:42,428 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:33:42,428 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 10:33:42,428 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:33:42,428 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:33:42,428 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 10:33:42,428 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:33:42,429 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:33:42,497 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 10:33:42,498 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:33:43,135 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:33:43,135 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:33:43,174 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:33:43,174 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 10:33:43,203 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 10:33:43,203 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:33:43,203 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:33:43,203 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:33:43,204 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:33:43,204 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 10:33:43,213 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#2021114036
+2019-03-10 10:33:43,213 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:33:45,201 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:33:45,201 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:33:45,203 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:33:45,211 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 10:33:45,211 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:33:45,212 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:33:45,212 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:33:45,218 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:33:45,219 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:33:45,219 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:33:45,219 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:33:45,607 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:33:45,607 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 10:33:45,608 INFO  main                             - Registering component: reference:com.example.service.PersonService:#967564618
+2019-03-10 10:33:45,608 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:33:46,626 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:33:46,626 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:33:46,628 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:33:46,631 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-997613349
+2019-03-10 10:33:46,631 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:33:47,222 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:33:47,222 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:33:47,222 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:33:47,226 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 10:33:47,226 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:33:47,227 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:33:47,227 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:33:47,235 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:33:47,236 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 10:33:47,240 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 10:33:47,240 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:33:47,240 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:33:47,240 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:33:47,240 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:33:47,240 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 10:33:47,244 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:33:47,244 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:33:47,244 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:33:47,244 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:33:47,244 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:33:47,244 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:33:47,247 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:33:47,247 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:33:47,247 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:33:47,247 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:33:47,247 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:33:47,247 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:44:50,598 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 10:44:54,787 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 10:44:54,787 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:44:54,790 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:44:54,790 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 10:44:54,790 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:44:54,791 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:44:54,791 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 10:44:54,791 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:44:54,791 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:44:54,877 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 10:44:54,878 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:44:55,507 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:44:55,507 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:44:55,543 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:44:55,543 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 10:44:55,569 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 10:44:55,570 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:44:55,570 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:44:55,570 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:44:55,571 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:44:55,571 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 10:44:55,578 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#737436489
+2019-03-10 10:44:55,579 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:44:57,553 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:44:57,553 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:44:57,555 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:44:57,563 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 10:44:57,563 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:44:57,563 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:44:57,564 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:44:57,570 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:44:57,570 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:44:57,571 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:44:57,571 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:44:58,002 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:44:58,002 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 10:44:58,004 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-1168655903
+2019-03-10 10:44:58,004 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:44:59,014 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:44:59,015 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:44:59,017 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:44:59,018 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-650881692
+2019-03-10 10:44:59,018 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:44:59,586 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:44:59,587 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:44:59,587 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:44:59,591 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 10:44:59,591 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:44:59,591 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:44:59,591 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:44:59,607 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:44:59,607 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 10:44:59,610 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 10:44:59,611 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:44:59,611 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:44:59,611 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:44:59,611 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:44:59,611 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 10:44:59,616 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:44:59,616 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:44:59,616 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:44:59,616 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:44:59,616 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:44:59,616 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:44:59,618 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:44:59,619 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:44:59,619 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:44:59,619 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:44:59,619 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:44:59,619 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:47:44,792 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 10:47:49,379 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 10:47:49,379 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:47:49,383 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:47:49,383 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 10:47:49,383 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:47:49,383 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:47:49,383 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 10:47:49,383 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:47:49,383 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:47:49,459 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 10:47:49,459 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:47:50,129 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:47:50,129 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:47:50,166 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:47:50,166 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 10:47:50,194 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 10:47:50,194 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:47:50,194 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:47:50,194 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:47:50,195 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:47:50,195 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 10:47:50,203 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#493188123
+2019-03-10 10:47:50,203 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:47:52,212 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:47:52,212 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:47:52,214 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:47:52,222 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 10:47:52,222 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:47:52,223 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:47:52,223 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:47:52,230 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:47:52,230 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:47:52,230 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:47:52,230 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:47:52,631 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:47:52,631 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 10:47:52,633 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-1026656109
+2019-03-10 10:47:52,633 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:47:53,644 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:47:53,644 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:47:53,647 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:47:53,648 INFO  main                             - Registering component: reference:com.example.service.PersonService:#1401919700
+2019-03-10 10:47:53,648 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:47:54,223 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:47:54,223 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:47:54,223 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:47:54,227 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 10:47:54,227 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:47:54,227 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:47:54,227 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:47:54,236 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:47:54,236 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 10:47:54,240 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 10:47:54,240 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:47:54,240 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:47:54,240 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:47:54,240 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:47:54,240 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 10:47:54,245 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:47:54,246 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:47:54,246 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:47:54,246 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:47:54,246 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:47:54,246 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:47:54,248 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:47:54,248 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:47:54,248 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:47:54,248 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:47:54,248 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:47:54,248 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:49:08,901 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 10:49:13,482 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 10:49:13,482 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:49:13,486 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:49:13,486 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 10:49:13,486 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:49:13,486 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:49:13,486 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 10:49:13,486 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:49:13,486 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:49:13,560 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 10:49:13,560 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:49:14,224 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:49:14,224 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 10:49:14,264 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 10:49:14,264 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 10:49:14,294 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 10:49:14,294 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:49:14,294 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:49:14,294 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:49:14,295 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:49:14,295 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 10:49:14,303 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#-988276927
+2019-03-10 10:49:14,304 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:49:16,290 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:49:16,290 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 10:49:16,294 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 10:49:16,302 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 10:49:16,302 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:49:16,302 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:49:16,302 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:49:16,312 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:49:16,312 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:49:16,313 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:49:16,313 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:49:16,856 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:49:16,856 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 10:49:16,858 INFO  main                             - Registering component: reference:com.example.service.PersonService:#1400597977
+2019-03-10 10:49:16,858 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 10:49:17,875 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 10:49:17,875 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:49:17,877 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:49:17,879 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-79545350
+2019-03-10 10:49:17,879 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 10:49:18,495 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 10:49:18,495 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 10:49:18,496 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 10:49:18,499 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 10:49:18,499 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:49:18,500 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:49:18,500 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 10:49:18,507 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 10:49:18,508 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 10:49:18,512 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 10:49:18,512 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:49:18,512 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:49:18,512 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 10:49:18,512 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 10:49:18,512 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 10:49:18,515 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:49:18,516 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:49:18,516 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:49:18,516 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:49:18,516 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 10:49:18,516 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 10:49:18,518 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 10:49:18,518 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:49:18,518 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:49:18,518 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:49:18,518 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 10:49:18,519 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 11:02:37,815 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 11:02:44,487 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 11:02:44,487 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:02:44,491 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:02:44,492 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 11:02:44,492 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:02:44,492 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:02:44,492 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 11:02:44,492 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:02:44,492 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:02:44,689 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 11:02:44,689 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 11:02:45,375 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 11:02:45,375 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 11:02:45,414 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 11:02:45,414 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 11:02:45,444 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 11:02:45,444 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:02:45,444 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:02:45,444 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:02:45,445 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:02:45,445 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 11:02:45,454 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#473423383
+2019-03-10 11:02:45,454 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:02:47,509 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:02:47,509 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:02:47,518 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:02:47,528 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 11:02:47,529 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:02:47,529 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:02:47,530 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:02:47,540 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:02:47,540 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:02:47,542 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:02:47,542 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:02:48,204 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:02:48,205 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 11:02:48,207 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-750199017
+2019-03-10 11:02:48,207 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:02:49,231 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:02:49,231 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 11:02:49,233 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 11:02:49,235 INFO  main                             - Registering component: reference:com.example.service.PersonService:#1382154960
+2019-03-10 11:02:49,235 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:02:49,981 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:02:49,982 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 11:02:49,982 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 11:02:49,985 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 11:02:49,985 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 11:02:49,986 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 11:02:49,986 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 11:02:50,001 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 11:02:50,001 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 11:02:50,012 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 11:02:50,012 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:02:50,012 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:02:50,012 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:02:50,012 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:02:50,012 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 11:02:50,016 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 11:02:50,016 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:02:50,016 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:02:50,016 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:02:50,016 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:02:50,016 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 11:02:50,020 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 11:02:50,020 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:02:50,020 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:02:50,021 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:02:50,021 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:02:50,021 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 11:07:07,257 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 11:07:11,902 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 11:07:11,902 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:07:11,906 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:07:11,906 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 11:07:11,906 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:07:11,906 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:07:11,906 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 11:07:11,906 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:07:11,906 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:07:11,980 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 11:07:11,980 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 11:07:12,637 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 11:07:12,637 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 11:07:12,675 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 11:07:12,675 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 11:07:12,704 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 11:07:12,704 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:07:12,704 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:07:12,704 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:07:12,705 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:07:12,705 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 11:07:12,714 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#-707841529
+2019-03-10 11:07:12,715 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:07:14,732 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:07:14,732 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:07:14,734 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:07:14,742 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 11:07:14,742 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:07:14,743 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:07:14,743 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:07:14,750 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:07:14,751 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:07:14,752 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:07:14,752 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:07:15,201 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:07:15,201 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 11:07:15,203 INFO  main                             - Registering component: reference:com.example.service.PersonService:#1681033375
+2019-03-10 11:07:15,203 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:07:16,216 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:07:16,217 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 11:07:16,219 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 11:07:16,220 INFO  main                             - Registering component: reference:com.example.service.PersonService:#965064422
+2019-03-10 11:07:16,220 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:07:16,817 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:07:16,818 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 11:07:16,818 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 11:07:16,821 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 11:07:16,821 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 11:07:16,822 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 11:07:16,822 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 11:07:16,829 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 11:07:16,829 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 11:07:16,833 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 11:07:16,833 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:07:16,833 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:07:16,833 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:07:16,834 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:07:16,834 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 11:07:16,838 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 11:07:16,838 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:07:16,838 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:07:16,838 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:07:16,838 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:07:16,838 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 11:07:16,842 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 11:07:16,842 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:07:16,843 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:07:16,843 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:07:16,843 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:07:16,843 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 11:11:59,051 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 11:12:03,505 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 11:12:03,505 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:12:03,508 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:12:03,508 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 11:12:03,508 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:12:03,509 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:12:03,509 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 11:12:03,509 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:12:03,509 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:12:03,626 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 11:12:03,626 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 11:12:04,316 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 11:12:04,316 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 11:12:04,356 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 11:12:04,356 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 11:12:04,391 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 11:12:04,391 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:12:04,392 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:12:04,395 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:12:04,397 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:12:04,397 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 11:12:04,406 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#-2017104277
+2019-03-10 11:12:04,406 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:12:06,438 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:12:06,438 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:12:06,441 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:12:06,449 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 11:12:06,449 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:12:06,450 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:12:06,450 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:12:06,456 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:12:06,456 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:12:06,457 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:12:06,457 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:12:06,852 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:12:06,852 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 11:12:06,853 INFO  main                             - Registering component: reference:com.example.service.PersonService:#1247671363
+2019-03-10 11:12:06,854 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:12:07,862 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:12:07,863 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 11:12:07,865 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 11:12:07,866 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-1108372700
+2019-03-10 11:12:07,867 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:12:08,441 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:12:08,441 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 11:12:08,441 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 11:12:08,445 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 11:12:08,445 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 11:12:08,446 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 11:12:08,446 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 11:12:08,455 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 11:12:08,455 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 11:12:08,459 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 11:12:08,459 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:12:08,459 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:12:08,459 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:12:08,459 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:12:08,459 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 11:12:08,463 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 11:12:08,463 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:12:08,463 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:12:08,463 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:12:08,463 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:12:08,463 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 11:12:08,465 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 11:12:08,465 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:12:08,465 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:12:08,465 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:12:08,465 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:12:08,465 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 11:13:30,674 INFO  main                             - SOFABoot Runtime Starting!
+2019-03-10 11:13:35,171 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:#414599042
+2019-03-10 11:13:35,172 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:13:35,175 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:13:35,175 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:annotationJvmServiceImpl#414599042
+2019-03-10 11:13:35,175 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:13:35,175 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:13:35,175 INFO  main                             - Registering component: reference:com.example.service.SimpleJvmService:serviceClientImpl#414599042
+2019-03-10 11:13:35,175 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:13:35,175 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:13:35,274 INFO  main                             - Registering component: service:com.example.service.DemoService
+2019-03-10 11:13:35,274 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 11:13:36,032 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 11:13:36,033 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.DemoService.
+2019-03-10 11:13:36,075 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.DemoService.
+2019-03-10 11:13:36,075 INFO  main                             - Register Service - com.example.service.DemoService
+2019-03-10 11:13:36,107 INFO  main                             - Registering component: service:com.example.service.impl.HelloSynService
+2019-03-10 11:13:36,108 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:13:36,108 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:13:36,108 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:13:36,109 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:13:36,109 INFO  main                             - Register Service - com.example.service.impl.HelloSynService
+2019-03-10 11:13:36,118 INFO  main                             - Registering component: reference:com.example.service.impl.HelloSynService:#728066826
+2019-03-10 11:13:36,118 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:13:38,227 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:13:38,227 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.impl.HelloSynService.
+2019-03-10 11:13:38,231 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.impl.HelloSynService.
+2019-03-10 11:13:38,244 INFO  main                             - Registering component: service:com.example.service.PersonService
+2019-03-10 11:13:38,245 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:13:38,246 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:13:38,246 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:13:38,254 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:13:38,254 INFO  main                             -  <<Out Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:13:38,255 INFO  main                             -  <<Out Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:13:38,255 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:13:38,666 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:13:38,667 INFO  main                             - Register Service - com.example.service.PersonService
+2019-03-10 11:13:38,668 INFO  main                             - Registering component: reference:com.example.service.PersonService:#-326342716
+2019-03-10 11:13:38,668 INFO  main                             -  >>In Binding [bolt] Begins - com.example.service.PersonService.
+2019-03-10 11:13:39,681 INFO  main                             -  >>In Binding [bolt] Ends - com.example.service.PersonService.
+2019-03-10 11:13:39,682 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 11:13:39,684 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 11:13:39,686 INFO  main                             - Registering component: reference:com.example.service.PersonService:#1704120707
+2019-03-10 11:13:39,686 INFO  main                             -  >>In Binding [rest] Begins - com.example.service.PersonService.
+2019-03-10 11:13:40,336 INFO  main                             -  >>In Binding [rest] Ends - com.example.service.PersonService.
+2019-03-10 11:13:40,336 INFO  main                             -  >>In Binding [jvm] Begins - com.example.service.PersonService.
+2019-03-10 11:13:40,336 INFO  main                             -  >>In Binding [jvm] Ends - com.example.service.PersonService.
+2019-03-10 11:13:40,343 INFO  main                             - Registering component: service:com.example.service.SimpleRestService
+2019-03-10 11:13:40,343 INFO  main                             -  <<PreOut Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 11:13:40,344 INFO  main                             -  <<PreOut Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 11:13:40,344 INFO  main                             -  <<Out Binding [rest] Begins - com.example.service.SimpleRestService.
+2019-03-10 11:13:40,354 INFO  main                             -  <<Out Binding [rest] Ends - com.example.service.SimpleRestService.
+2019-03-10 11:13:40,354 INFO  main                             - Register Service - com.example.service.SimpleRestService
+2019-03-10 11:13:40,359 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService
+2019-03-10 11:13:40,359 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:13:40,359 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:13:40,359 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService.
+2019-03-10 11:13:40,360 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService.
+2019-03-10 11:13:40,360 INFO  main                             - Register Service - com.example.service.SimpleJvmService
+2019-03-10 11:13:40,365 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 11:13:40,365 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:13:40,365 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:13:40,365 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:13:40,365 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:serviceClientImpl.
+2019-03-10 11:13:40,365 INFO  main                             - Register Service - com.example.service.SimpleJvmService:serviceClientImpl
+2019-03-10 11:13:40,368 INFO  main                             - Registering component: service:com.example.service.SimpleJvmService:annotationJvmServiceImpl
+2019-03-10 11:13:40,368 INFO  main                             -  <<PreOut Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:13:40,368 INFO  main                             -  <<PreOut Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:13:40,368 INFO  main                             -  <<Out Binding [jvm] Begins - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:13:40,369 INFO  main                             -  <<Out Binding [jvm] Ends - com.example.service.SimpleJvmService:annotationJvmServiceImpl.
+2019-03-10 11:13:40,369 INFO  main                             - Register Service - com.example.service.SimpleJvmService:annotationJvmServiceImpl
