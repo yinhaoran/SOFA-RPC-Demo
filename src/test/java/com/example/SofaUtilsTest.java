@@ -158,4 +158,12 @@ public class SofaUtilsTest {
 		Map<String, String> right = difference.entriesOnlyOnRight();
 		LOGGER.debug(left.toString());
 	}
+	
+	@Test
+	public void testSubString() {
+		String str = "hashdhajsdjajsdja";
+		str = str.substring(4, str.length());
+		LOGGER.debug(str);
+	}
+	
 }

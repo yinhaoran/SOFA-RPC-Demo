@@ -1,0 +1,24 @@
+2019-03-11 15:35:52,406 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 15:35:52,413 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-03-11 15:35:58,230 WARN  [DefaultConnectionManager#365] [SOFA-LocalRegistry-Back-Load-6-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.39.150:12200
+2019-03-11 15:35:58,232 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-1-thread-5] Remove and close a standalone connection.
+2019-03-11 15:35:58,232 INFO  [Connection$1#308] [Rpc-netty-client-worker-1-thread-5] Close the connection to remote address=192.168.39.150:12200, result=true, cause=null
+2019-03-11 15:40:33,418 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 15:40:33,426 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-03-11 15:40:37,514 WARN  [DefaultConnectionManager#334] [Rpc-netty-client-worker-1-thread-5] Remove and close a standalone connection.
+2019-03-11 15:40:37,518 WARN  [DefaultConnectionManager#365] [SOFA-LocalRegistry-Back-Load-6-T1] Remove and close all connections in ConnectionPool of poolKey=192.168.39.150:12200
+2019-03-11 15:40:37,518 INFO  [Connection$1#308] [Rpc-netty-client-worker-1-thread-5] Close the connection to remote address=192.168.39.150:12200, result=true, cause=null
+2019-03-11 15:43:14,798 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 15:43:14,800 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-03-11 15:44:18,998 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 15:44:18,999 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-03-11 15:54:20,252 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 15:54:20,253 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-03-11 16:20:29,924 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 16:20:29,930 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-03-11 17:05:07,319 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 17:05:07,330 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-03-11 17:07:24,872 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 17:07:24,874 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200
+2019-03-11 17:14:02,310 WARN  [RemotingServer#56] [main] Initialize the server.
+2019-03-11 17:14:02,312 WARN  [RemotingServer#92] [main] Server started on 0.0.0.0:12200

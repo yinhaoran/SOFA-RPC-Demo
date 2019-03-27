@@ -37,9 +37,18 @@ public class ThriftClient {
 	private static final int PORT = 8899;
 
 	public static void main(String[] args) {
+		/**
+		 * 传输层
+		 */
 		TTransport transport = new TFastFramedTransport(new TSocket("localhost", PORT), 600);
 		try {
+			/**
+			 * 协议层
+			 */
 			TProtocol protocol = new TCompactProtocol(transport);
+			/**
+			 * 客户端
+			 */
 			PersonService.Client client = new PersonService.Client(protocol);
 			transport.open();
 			Person person = client.getPersonByUsername("张三");

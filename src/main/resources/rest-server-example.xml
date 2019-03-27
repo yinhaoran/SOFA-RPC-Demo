@@ -19,7 +19,7 @@
 		<sofa:binding.bolt />
 	</sofa:reference>
 
-
+	<!-- 注入实现类 -->
 	<bean id="PersonServiceImpl"
 		class="com.example.service.impl.PersonServiceImpl">
 	</bean>
@@ -31,7 +31,6 @@
 	<sofa:reference id="personReferenceBolt"
 		interface="com.example.service.PersonService">
 		<sofa:binding.bolt>
-			<!-- <sofa:global-attrs filter="personFilter"/> -->
 		</sofa:binding.bolt>
 	</sofa:reference>
 	<sofa:reference id="personReferenceRest"
@@ -40,7 +39,9 @@
 	</sofa:reference>
 	<bean id="personFilter" class="com.example.PersonServiceFilter">
 	</bean>
+	
 	<sofa:rpc-global-filter ref="personFilter" />
+	
 	<bean class="com.example.service.impl.SimpleRestServiceImpl"
 		id="simpleRestService"></bean>
 

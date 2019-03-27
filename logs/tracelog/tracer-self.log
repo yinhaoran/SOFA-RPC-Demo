@@ -1,20 +1,12 @@
-2019-03-11 15:35:40.467[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:35:40.478[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:40:21.815[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:40:21.824[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:43:03.300[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:43:03.308[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:44:07.408[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:44:07.425[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:54:08.642[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 15:54:08.652[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 16:19:56.853[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 16:19:56.860[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 17:04:46.654[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 17:04:46.665[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 17:07:13.304[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 17:07:13.321[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 17:13:50.729[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 17:13:50.738[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
-2019-03-11 18:13:50.609[INFO]  Deleted log file: static-info.log.2019-02-26
-2019-03-11 18:13:50.613[INFO]  Deleted log file: tracer-self.log.2019-02-26
+2019-03-25 17:39:55.085[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:39:55.098[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:41:13.701[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:41:13.712[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:41:47.437[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:41:47.449[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:42:55.903[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:42:55.913[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:49:17.162[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:49:17.171[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:50:02.295[WARN]  rpc-client-stat.log configured stat_log_interval=60 second and default cycle=60
+2019-03-25 17:50:02.306[WARN]  rpc-server-stat.log configured stat_log_interval=60 second and default cycle=60

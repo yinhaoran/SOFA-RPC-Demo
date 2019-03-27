@@ -1,0 +1,19 @@
+2019-03-22 15:25:44,630 INFO  main                             - global filter take effect[personFilter]
+2019-03-22 15:26:38,646 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:20508
+2019-03-22 15:26:39,020 INFO  main                             - Install Module: fault-tolerance
+2019-03-22 15:26:39,378 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-22 15:26:40,560 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-22 15:26:40,570 INFO  main                             - Install Module: sofaTracer
+2019-03-22 15:26:40,963 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-22 15:26:43,094 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-22 15:26:45,596 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-22 15:26:54,824 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-22 15:26:54,883 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-22 15:27:05,566 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-22 15:27:09,004 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-22 15:27:12,841 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-22 15:28:10,621 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-22 15:28:10,710 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-22 15:28:10,792 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-22 15:28:10,877 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-22 15:28:10,960 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]

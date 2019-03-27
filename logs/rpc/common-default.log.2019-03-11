@@ -1,0 +1,171 @@
+2019-03-11 15:35:35,687 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 15:35:40,223 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:19828
+2019-03-11 15:35:40,243 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 15:35:40,268 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 15:35:40,487 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 15:35:40,487 INFO  main                             - Install Module: sofaTracer
+2019-03-11 15:35:40,505 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 15:35:40,577 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 15:35:40,636 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 15:35:44,410 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 15:35:44,411 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 15:35:44,896 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 15:35:47,914 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 15:35:51,422 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 15:35:55,966 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 15:35:56,089 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 15:35:56,107 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 15:35:56,231 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 15:35:56,250 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]
+2019-03-11 15:40:18,669 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 15:40:21,605 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:22508
+2019-03-11 15:40:21,620 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 15:40:21,635 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 15:40:21,836 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 15:40:21,837 INFO  main                             - Install Module: sofaTracer
+2019-03-11 15:40:21,849 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 15:40:21,902 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 15:40:21,949 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 15:40:25,635 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 15:40:25,636 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 15:40:25,983 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 15:40:29,006 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 15:40:32,513 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 15:40:36,953 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 15:40:37,079 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 15:40:37,096 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 15:40:37,208 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 15:40:37,223 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]
+2019-03-11 15:43:00,166 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 15:43:03,092 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:240
+2019-03-11 15:43:03,106 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 15:43:03,122 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 15:43:03,313 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 15:43:03,314 INFO  main                             - Install Module: sofaTracer
+2019-03-11 15:43:03,326 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 15:43:03,377 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 15:43:03,421 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 15:43:07,094 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 15:43:07,095 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 15:43:07,465 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 15:43:10,484 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 15:43:13,990 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 15:43:18,332 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 15:43:18,347 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 15:43:18,355 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 15:43:18,362 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 15:43:18,371 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]
+2019-03-11 15:44:04,262 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 15:44:07,200 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:5840
+2019-03-11 15:44:07,215 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 15:44:07,231 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 15:44:07,429 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 15:44:07,430 INFO  main                             - Install Module: sofaTracer
+2019-03-11 15:44:07,444 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 15:44:07,496 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 15:44:07,545 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 15:44:11,230 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 15:44:11,231 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 15:44:11,562 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 15:44:14,583 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 15:44:18,091 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 15:44:22,527 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 15:44:22,541 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 15:44:22,548 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 15:44:22,556 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 15:44:22,563 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]
+2019-03-11 15:54:05,459 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 15:54:08,435 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:4184
+2019-03-11 15:54:08,450 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 15:54:08,467 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 15:54:08,657 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 15:54:08,657 INFO  main                             - Install Module: sofaTracer
+2019-03-11 15:54:08,668 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 15:54:08,733 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 15:54:08,782 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 15:54:12,462 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 15:54:12,463 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 15:54:12,866 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 15:54:15,891 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 15:54:19,398 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 15:54:23,781 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 15:54:23,795 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 15:54:23,803 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 15:54:23,810 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 15:54:23,818 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]
+2019-03-11 16:19:53,143 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 16:19:56,639 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:180
+2019-03-11 16:19:56,653 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 16:19:56,668 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 16:19:56,864 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 16:19:56,864 INFO  main                             - Install Module: sofaTracer
+2019-03-11 16:19:56,877 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 16:20:17,914 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 16:20:17,982 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 16:20:21,666 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 16:20:21,667 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 16:20:22,027 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 16:20:25,046 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 16:20:28,556 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 16:20:33,484 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 16:20:33,496 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 16:20:33,503 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 16:20:33,509 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 16:20:33,516 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]
+2019-03-11 17:04:43,099 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 17:04:46,421 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:19812
+2019-03-11 17:04:46,435 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 17:04:46,454 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 17:04:46,670 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 17:04:46,671 INFO  main                             - Install Module: sofaTracer
+2019-03-11 17:04:46,685 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 17:04:54,897 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 17:04:54,950 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 17:04:58,699 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 17:04:58,701 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 17:04:59,140 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 17:05:02,158 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 17:05:05,669 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 17:05:10,872 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 17:05:10,892 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 17:05:10,905 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 17:05:10,916 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 17:05:10,929 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]
+2019-03-11 17:07:10,112 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 17:07:13,081 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:14612
+2019-03-11 17:07:13,098 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 17:07:13,113 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 17:07:13,326 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 17:07:13,326 INFO  main                             - Install Module: sofaTracer
+2019-03-11 17:07:13,339 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 17:07:13,395 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 17:07:13,453 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 17:07:17,141 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 17:07:17,142 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 17:07:17,498 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 17:07:20,514 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 17:07:24,023 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 17:07:28,409 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 17:07:28,436 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 17:07:28,447 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 17:07:28,459 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 17:07:28,471 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]
+2019-03-11 17:13:47,298 INFO  main                             - global filter take effect[personFilter]
+2019-03-11 17:13:50,521 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.5.0_20181229155045, PID is:3240
+2019-03-11 17:13:50,537 INFO  main                             - Install Module: fault-tolerance
+2019-03-11 17:13:50,553 INFO  main                             - Install Module: sofaTracer-resteasy
+2019-03-11 17:13:50,743 INFO  main                             - The module lookout does not need to be loaded.
+2019-03-11 17:13:50,744 INFO  main                             - Install Module: sofaTracer
+2019-03-11 17:13:50,757 INFO  main                             - Export provider config : com.example.service.DemoService::bolt with bean id rpc-cfg-0
+2019-03-11 17:13:50,810 INFO  main                             - Export provider config : com.example.service.impl.HelloSynService::bolt with bean id helloSynServiceImpl
+2019-03-11 17:13:50,865 INFO  main                             - Refer consumer config : bolt://com.example.service.impl.HelloSynService: with bean id helloSyncServiceReference
+2019-03-11 17:13:54,548 INFO  main                             - Export provider config : com.example.service.PersonService::bolt with bean id PersonServiceImpl
+2019-03-11 17:13:54,549 INFO  main                             - Export provider config : com.example.service.PersonService::rest with bean id PersonServiceImpl
+2019-03-11 17:13:54,880 INFO  main                             - Refer consumer config : bolt://com.example.service.PersonService: with bean id personReferenceBolt
+2019-03-11 17:13:57,895 INFO  main                             - Refer consumer config : rest://com.example.service.PersonService: with bean id personReferenceRest
+2019-03-11 17:14:01,403 INFO  main                             - Export provider config : com.example.service.SimpleRestService::rest with bean id rpc-cfg-1
+2019-03-11 17:14:05,888 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[rest]
+2019-03-11 17:14:05,905 INFO  main                             - service published.  interfaceId[com.example.service.impl.HelloSynService]; protocol[bolt]
+2019-03-11 17:14:05,917 INFO  main                             - service published.  interfaceId[com.example.service.SimpleRestService]; protocol[rest]
+2019-03-11 17:14:05,928 INFO  main                             - service published.  interfaceId[com.example.service.PersonService]; protocol[bolt]
+2019-03-11 17:14:05,940 INFO  main                             - service published.  interfaceId[com.example.service.DemoService]; protocol[bolt]

@@ -1,5 +1,6 @@
 package com.example.controller;
 
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,6 +18,7 @@ import com.example.service.SimpleJvmService;
  * @see
  */
 @RestController
+@EnableAsync
 public class TestController {
 
 	/**

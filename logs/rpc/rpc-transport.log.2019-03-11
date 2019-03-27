@@ -1,0 +1,4 @@
+2019-03-11 15:35:56,223 INFO  SOFA-LocalRegistry-Back-Load-6-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.39.150:57150 -> 192.168.39.150:12200.
+2019-03-11 15:35:58,229 INFO  SOFA-LocalRegistry-Back-Load-6-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.39.150:57150 -> 192.168.39.150:12200.
+2019-03-11 15:40:37,505 INFO  SOFA-LocalRegistry-Back-Load-6-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.39.150:58098 -> 192.168.39.150:12200.
+2019-03-11 15:40:37,506 INFO  SOFA-LocalRegistry-Back-Load-6-T1 com.alipay.sofa.rpc.transport.bolt.BoltClientTransport - Try disconnect client transport now. The connection is 192.168.39.150:58098 -> 192.168.39.150:12200.

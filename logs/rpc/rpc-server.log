@@ -1,36 +1,54 @@
-2019-03-11 15:35:44,827 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 15:35:44,829 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:35:51,423 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:35:52,419 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
-2019-03-11 15:40:25,920 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 15:40:25,927 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:40:32,514 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:40:33,428 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
-2019-03-11 15:43:07,379 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 15:43:07,379 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:43:13,991 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:43:14,805 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
-2019-03-11 15:44:11,511 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 15:44:11,511 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:44:18,092 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:44:19,001 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
-2019-03-11 15:54:12,811 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 15:54:12,811 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:54:19,399 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 15:54:20,255 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
-2019-03-11 16:20:21,972 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 16:20:21,972 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 16:20:28,557 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 16:20:29,932 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
-2019-03-11 17:04:59,087 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 17:04:59,088 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 17:05:05,669 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 17:05:07,342 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
-2019-03-11 17:07:17,448 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 17:07:17,448 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 17:07:24,024 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 17:07:24,875 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
-2019-03-11 17:13:54,831 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
-2019-03-11 17:13:54,831 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 17:14:01,403 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
-2019-03-11 17:14:02,319 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2019-03-25 17:39:59,498 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
+2019-03-25 17:39:59,501 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:40:04,105 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:40:05,783 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2019-03-25 17:40:54,737 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:40:54,772 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:40:54,780 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-25 17:40:54,780 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:40:54,801 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:41:17,845 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
+2019-03-25 17:41:17,845 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:41:22,463 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:41:23,876 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2019-03-25 17:41:35,028 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:41:35,083 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:41:35,105 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-25 17:41:35,105 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:41:35,116 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:41:51,644 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
+2019-03-25 17:41:51,644 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:41:56,242 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:41:57,629 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2019-03-25 17:42:27,828 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:42:27,864 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:42:27,887 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-25 17:42:27,887 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:42:27,898 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:43:00,221 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
+2019-03-25 17:43:00,221 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:43:06,849 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:43:08,214 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2019-03-25 17:43:57,469 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:43:57,505 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:43:57,529 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-25 17:43:57,529 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:43:57,544 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:49:21,538 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
+2019-03-25 17:49:21,538 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:49:28,146 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:49:29,454 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2019-03-25 17:49:47,669 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:49:47,712 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:49:47,733 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-25 17:49:47,734 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:49:47,746 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:50:06,572 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Start the http rest server at port 8341
+2019-03-25 17:50:06,573 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:50:13,183 INFO  main                             com.alipay.sofa.rpc.server.rest.RestServer - Register jaxrs service to base url http://0.0.0.0:8341
+2019-03-25 17:50:14,467 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2019-03-25 17:50:42,066 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:50:42,167 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Unregister jaxrs service to port 8341 and base path is 
+2019-03-25 17:50:42,182 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2019-03-25 17:50:42,182 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341
+2019-03-25 17:50:42,219 INFO  Thread-5                         com.alipay.sofa.rpc.server.rest.RestServer - Stop the http rest server at port 8341

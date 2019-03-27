@@ -1,0 +1,21 @@
+2019-03-22 15:26:46,467 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\yin\localFileRegistry\localRegistry.reg
+2019-03-22 15:28:10,504 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[com.example.service.PersonService:1.0@rest]发布开始 
+2019-03-22 15:28:10,510 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[com.example.service.PersonService:1.0@rest] 
+2019-03-22 15:28:10,593 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\yin\localFileRegistry\localRegistry.reg
+2019-03-22 15:28:10,610 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[com.example.service.PersonService:1.0@rest]发布结束 
+2019-03-22 15:28:10,627 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[com.example.service.impl.HelloSynService:1.0@DEFAULT]发布开始 
+2019-03-22 15:28:10,634 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[com.example.service.impl.HelloSynService:1.0@DEFAULT] 
+2019-03-22 15:28:10,698 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\yin\localFileRegistry\localRegistry.reg
+2019-03-22 15:28:10,707 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[com.example.service.impl.HelloSynService:1.0@DEFAULT]发布结束 
+2019-03-22 15:28:10,716 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[com.example.service.SimpleRestService:1.0@rest]发布开始 
+2019-03-22 15:28:10,722 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[com.example.service.SimpleRestService:1.0@rest] 
+2019-03-22 15:28:10,783 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\yin\localFileRegistry\localRegistry.reg
+2019-03-22 15:28:10,789 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[com.example.service.SimpleRestService:1.0@rest]发布结束 
+2019-03-22 15:28:10,798 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[com.example.service.PersonService:1.0@DEFAULT]发布开始 
+2019-03-22 15:28:10,803 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[com.example.service.PersonService:1.0@DEFAULT] 
+2019-03-22 15:28:10,865 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\yin\localFileRegistry\localRegistry.reg
+2019-03-22 15:28:10,874 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[com.example.service.PersonService:1.0@DEFAULT]发布结束 
+2019-03-22 15:28:10,884 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00205: RPC 服务[com.example.service.DemoService:1.0@DEFAULT]发布开始 
+2019-03-22 15:28:10,889 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00201: 发布 RPC 服务：服务名[com.example.service.DemoService:1.0@DEFAULT] 
+2019-03-22 15:28:10,951 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\yin\localFileRegistry\localRegistry.reg
+2019-03-22 15:28:10,957 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-00206: RPC 服务[com.example.service.DemoService:1.0@DEFAULT]发布结束 
