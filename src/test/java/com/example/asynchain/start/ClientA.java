@@ -17,10 +17,11 @@ package com.example.asynchain.start;
  * @see       
  */
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.alipay.sofa.rpc.config.ApplicationConfig;
 import com.alipay.sofa.rpc.config.ConsumerConfig;
-import com.alipay.sofa.rpc.log.Logger;
-import com.alipay.sofa.rpc.log.LoggerFactory;
 import com.example.asynchain.ServiceB;
 
 public class ClientA {
@@ -35,13 +36,14 @@ public class ClientA {
 				.setRegister(false)
 				.setTimeout(3000);
 		ServiceB serviceB = consumerConfig.refer();
-		for (;;) {
-			int ret = serviceB.getInt(1);
+		while(true) {
+			int ret = serviceB.getInt(999);
 			LOGGER.info("ret0 " + ret);
 			try {
 				Thread.sleep(3000);
 			} catch (Exception e) {
 			}
+			LOGGER.info("异步");
 		}
 	}
 }

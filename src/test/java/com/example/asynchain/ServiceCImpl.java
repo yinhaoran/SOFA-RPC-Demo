@@ -9,8 +9,8 @@
 
 package com.example.asynchain;
 
-import com.alipay.sofa.rpc.log.Logger;
-import com.alipay.sofa.rpc.log.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * ClassName:ServiceCImpl Date: 2019年3月26日 下午4:30:40
