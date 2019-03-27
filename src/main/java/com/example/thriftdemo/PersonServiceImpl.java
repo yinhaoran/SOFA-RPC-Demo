@@ -9,7 +9,6 @@
 
 package com.example.thriftdemo;
 
-import org.apache.thrift.TException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,7 +29,7 @@ public class PersonServiceImpl implements PersonService.Iface {
 	private static final Logger LOGGER = LoggerFactory.getLogger(PersonServiceImpl.class);
 
 	@Override
-	public Person getPersonByUsername(String username) throws DataException, TException {
+	public Person getPersonByUsername(String username) {
 		LOGGER.debug("GOT CLIENT PARAM : " + username);
 		Person person = new Person();
 		person.setAge(25);
@@ -40,7 +39,7 @@ public class PersonServiceImpl implements PersonService.Iface {
 	}
 
 	@Override
-	public void savePerson(Person person) throws DataException, TException {
+	public void savePerson(Person person) {
 		LOGGER.debug("GOT CLIENT PARAM : ");
 		LOGGER.debug(person.getUsername());
 	}
