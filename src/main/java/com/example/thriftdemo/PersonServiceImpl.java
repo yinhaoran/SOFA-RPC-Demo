@@ -12,7 +12,6 @@ package com.example.thriftdemo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import thrift.generated.DataException;
 import thrift.generated.Person;
 import thrift.generated.PersonService;
 

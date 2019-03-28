@@ -9,9 +9,13 @@
 
 package com.example.bolt.start;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.alipay.sofa.rpc.common.RpcConstants;
 import com.alipay.sofa.rpc.config.ApplicationConfig;
 import com.alipay.sofa.rpc.config.ProviderConfig;
 import com.alipay.sofa.rpc.config.ServerConfig;
@@ -37,7 +41,16 @@ public class BoltServerMain {
 
 	public static void main(String[] args) {
 		ApplicationConfig application = new ApplicationConfig().setAppName(APPNAME);
-		ServerConfig serverConfig = new ServerConfig().setPort(22000).setDaemon(false);
+		/**
+		 * 加入远程调用配置
+		 */
+		Map<String, String> parameters = new HashMap<String, String>();
+		parameters.put(RpcConstants.ALLOWED_ORIGINS, "abc.com,cdf.com");
+		// serverConfig.setParameters(parameters);
+		ServerConfig serverConfig = new ServerConfig()
+				.setPort(22000)
+				.setDaemon(false)
+				.setParameters(parameters);
 		ProviderConfig<HelloService> providerConfig = new ProviderConfig<HelloService>()
 				.setInterfaceId(HelloService.class.getName()).setApplication(application).setRef(new HelloServiceImpl())
 				.setServer(serverConfig).setRegister(false);
