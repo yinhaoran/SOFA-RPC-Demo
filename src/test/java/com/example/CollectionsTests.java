@@ -9,13 +9,16 @@
 
 package com.example;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import com.example.rpc.protocol.ProtocolType;
 
 /**
  * ClassName:CollectionsTests Date: 2019年3月28日 下午5:34:53
@@ -26,13 +29,16 @@ import org.junit.Test;
  * @see
  */
 public class CollectionsTests {
+
+	private static final Logger LOGGER = LoggerFactory.getLogger(CollectionsTests.class);
+
 	private static final int THREAD_POOL_MAX_NUM = 1000;
-//	private List<String> mList = new ArrayList<String>();
+	// private List<String> mList = new ArrayList<String>();
 	private List<String> mList = new CopyOnWriteArrayList<String>();
 
-//	public static void main(String args[]) {
-//		new ListConcurrentTest().start();
-//	}
+	// public static void main(String args[]) {
+	// new ListConcurrentTest().start();
+	// }
 
 	private void initData() {
 		for (int i = 0; i <= THREAD_POOL_MAX_NUM; i++) {
@@ -83,16 +89,17 @@ public class CollectionsTests {
 				// this.mList.remove(this.mIndex);
 				this.mList.add("...... add " + mIndex + " ......");
 			}
-//			try {
-//				Thread.sleep(100);
-//			} catch (InterruptedException e) {
-//				e.printStackTrace();  
-//			}
+			// try {
+			// Thread.sleep(100);
+			// } catch (InterruptedException e) {
+			// e.printStackTrace();
+			// }
 		}
 	}
-	// ---------------------
-	// 作者：hua631150873
-	// 来源：CSDN
-	// 原文：https://blog.csdn.net/hua631150873/article/details/51306021
-	// 版权声明：本文为博主原创文章，转载请附上博文链接！
+
+	@Test
+	public void testEnum() {
+		String bolt = ProtocolType.bolt.name();
+		LOGGER.info(bolt);
+	}
 }

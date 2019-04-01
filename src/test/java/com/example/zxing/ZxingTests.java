@@ -39,7 +39,7 @@ import com.google.zxing.common.HybridBinarizer;
 
 /**
  * ClassName:ZxingTests Date: 2019年3月28日 上午9:41:51
- * 
+ * zxing 二维码插件测试
  * @version
  * @author yin
  * @since JDK 1.8
