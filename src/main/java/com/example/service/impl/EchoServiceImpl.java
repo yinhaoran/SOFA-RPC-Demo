@@ -9,9 +9,6 @@
 
 package com.example.service.impl;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.example.service.EchoService;
 
 /**
@@ -24,12 +21,9 @@ import com.example.service.EchoService;
  */
 public class EchoServiceImpl implements EchoService {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(EchoServiceImpl.class);
-
 	@Override
 	public String echoStr(String str) {
-		LOGGER.info(str);
-		return "【ECHO SERVICEIMPL】";
+		return "echo " + str;
 	}
 
 }

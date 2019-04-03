@@ -188,4 +188,34 @@ public class ImageUrlTest {
 		closeableHttpClient.close();
 		return bfile;
 	}
+	
+	@Test
+	public void filePathTest() {
+		String path = "D:\\PNT测试文件\\2019-04-03\\patch_恒力应付接口对接补丁包括国信影像二维码改造\\replacement\\modules";
+		getFiles(path);
+	}
+	
+	private void getFiles(String path) {
+		File file = new File(path);
+		// 如果这个路径是文件夹
+		if (file.isDirectory()) {
+			// 获取路径下的所有文件
+			File[] files = file.listFiles();
+			for (int i = 0; i < files.length; i++) {
+				File tmp = files[i];
+				// 如果还是文件夹 递归获取里面的文件 文件夹
+				if (tmp.isDirectory()) {
+					// System.out.println("目录：" + tmp.getPath());
+					getFiles(files[i].getPath());
+				} else {
+					// System.out.println("文件：" + tmp.getPath());
+					String fileName = tmp.getName();
+					if (fileName.endsWith("java"))
+						System.out.println(fileName);
+				}
+			}
+		} else {
+			System.out.println("文件：" + file.getPath());
+		}
+	}
 }
