@@ -34,6 +34,7 @@ public class CallBackClientTest {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(CallBackClientTest.class);
 
+	private static final int TIMES = 100;
 	
 	@Test
 	public void test() {
@@ -75,7 +76,7 @@ public class CallBackClientTest {
 //				CallBackClientMain.class.wait();
 //			}
 //		}
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < TIMES; i++) {
 			try {
 				service.getException();
 				Thread.sleep(2000);

@@ -1,6 +1,6 @@
 /**  
  * Project Name:spring-boot-sofarpc  
- * File Name:ZxingTests.java  
+ * File Name:ZxingTest.java  
  * Package Name:com.example.zxing 
  * Date:2019年3月28日上午9:41:51  
  * Copyright (c) 2019,  
@@ -38,14 +38,14 @@ import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.HybridBinarizer;
 
 /**
- * ClassName:ZxingTests Date: 2019年3月28日 上午9:41:51
+ * ClassName:ZxingTest Date: 2019年3月28日 上午9:41:51
  * zxing 二维码插件测试
  * @version
  * @author yin
  * @since JDK 1.8
  * @see
  */
-public class ZxingTests {
+public class ZxingTest {
 	@Test
 	public void decodeTest() throws Exception {
 		String filePath = "D://";
@@ -68,8 +68,8 @@ public class ZxingTests {
 		/**
 		 * 图像类型
 		 */
-		String format = "png";//
-		Map<EncodeHintType, Object> hints = new HashMap<EncodeHintType, Object>();
+		String format = "png";
+		Map<EncodeHintType, Object> hints = new HashMap<EncodeHintType, Object>(16);
 		hints.put(EncodeHintType.CHARACTER_SET, "UTF-8");
 		/**
 		 * 生成矩阵
@@ -93,9 +93,12 @@ public class ZxingTests {
 			LuminanceSource source = new BufferedImageLuminanceSource(image);
 			Binarizer binarizer = new HybridBinarizer(source);
 			BinaryBitmap binaryBitmap = new BinaryBitmap(binarizer);
-			Map<DecodeHintType, Object> hints = new HashMap<DecodeHintType, Object>();
+			Map<DecodeHintType, Object> hints = new HashMap<DecodeHintType, Object>(16);
 			hints.put(DecodeHintType.CHARACTER_SET, "UTF-8");
-			Result result = new MultiFormatReader().decode(binaryBitmap, hints);// 对图像进行解码
+			/**
+			 * 对图像进行解码
+			 */
+			Result result = new MultiFormatReader().decode(binaryBitmap, hints);
 			JSONObject content = JSONObject.parseObject(result.getText());
 			System.out.println("图片中内容：	");
 			System.out.println("author：	" + content.getString("author"));

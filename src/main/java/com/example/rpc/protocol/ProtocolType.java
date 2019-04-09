@@ -18,5 +18,26 @@ package com.example.rpc.protocol;
  * @see
  */
 public enum ProtocolType {
-	rest, bolt, dubbo, h2c
+	/**
+	 * Rest类型
+	 */
+	rest("rest"),
+	/**
+	 * bolt类型
+	 */
+	bolt("bolt"),
+	/**
+	 * dubbo类型
+	 */
+	dubbo("dubbo"),
+	/**
+	 * h2c类型
+	 */
+	h2c("h2c");
+
+	private String type;
+
+	private ProtocolType(String type) {
+		this.type = type;
+	}
 }

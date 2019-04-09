@@ -22,9 +22,12 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.concurrent.FutureTask;
+import java.util.concurrent.ThreadFactory;
 
 import org.junit.Test;
 
@@ -34,6 +37,7 @@ import com.alipay.sofa.rpc.common.utils.CommonUtils;
 import com.alipay.sofa.rpc.common.utils.StringUtils;
 import com.alipay.sofa.rpc.log.Logger;
 import com.alipay.sofa.rpc.log.LoggerFactory;
+import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 /**
  * ClassName:SofaUtilsTest Date: 2019年2月24日 上午11:43:39
@@ -62,7 +66,7 @@ public class SofaUtilsTest {
 
 	@Test
 	public void testMapUtil() {
-		ConcurrentMap<String, String> currentMap = new ConcurrentHashMap<String, String>();
+		ConcurrentMap<String, String> currentMap = new ConcurrentHashMap<String, String>(16);
 		CommonUtils.putToConcurrentMap(currentMap, "a", "b");
 		CommonUtils.putToConcurrentMap(currentMap, "g", "b");
 		CommonUtils.putToConcurrentMap(currentMap, "n", "b");
@@ -104,21 +108,40 @@ public class SofaUtilsTest {
 		StringUtils.split(s, ",");
 	}
 
-	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Test
-	public void testTask() {
-		int taskSize = 5;
-		ExecutorService pool = Executors.newFixedThreadPool(taskSize);
-		List<Future> list = new ArrayList<Future>();
-		for (int i = 0; i < taskSize; i++) {
-			Callable call = new MyCallable(i);
-			Future future = pool.submit(call);
-			list.add(future);
+	public void testTask() throws InterruptedException, ExecutionException {
+		// int taskSize = 5;
+		// ThreadFactory threadFactory = new
+		// ThreadFactoryBuilder().setNameFormat("").build();
+		// ExecutorService pool = Executors.newFixedThreadPool(taskSize);
+		// List<Future> list = new ArrayList<Future>();
+		// for (int i = 0; i < taskSize; i++) {
+		// Callable call = new MyCallable(i);
+		// Future future = pool.submit(call);
+		// list.add(future);
+		// }
+		// pool.shutdown();
+		Callable<String> callable = new MyCallable(0);
+		FutureTask<String> future = new FutureTask<String>(callable);
+		Thread thread = new Thread(future);
+		thread.setName("MY-CALLABLE-THREAD");
+		thread.start();
+		while (!future.isDone()) {
+			try {
+				System.out.println("myCallable001 is not done");
+				//等待线程运行结束
+				Thread.currentThread().sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
-		pool.shutdown();
+		String result = future.get();
+		System.out.println("result : " + result);
+		System.out.println(future.isDone());
 	}
 
-	class MyCallable implements Callable<Object> {
+	class MyCallable implements Callable<String> {
 
 		private int taskNum;
 
@@ -128,7 +151,7 @@ public class SofaUtilsTest {
 		}
 
 		@Override
-		public Object call() throws Exception {
+		public String call() throws Exception {
 			LOGGER.debug("序号为【" + this.taskNum + "】的任务启动！");
 			Date dateTmp1 = new Date();
 			Thread.sleep(100);
@@ -142,12 +165,12 @@ public class SofaUtilsTest {
 	@SuppressWarnings("unused")
 	@Test
 	public void testMapDifference() {
-		Map<String, String> mapone = new HashMap<String, String>();
+		Map<String, String> mapone = new HashMap<String, String>(16);
 		mapone.put("a", "b");
 		mapone.put("b", "b");
 		mapone.put("c", "b");
 		mapone.put("d", "b");
-		Map<String, String> maptwo = new HashMap<String, String>();
+		Map<String, String> maptwo = new HashMap<String, String>(16);
 		maptwo.put("a", "y");
 		maptwo.put("b", "b");
 		maptwo.put("c", "b");
@@ -158,12 +181,12 @@ public class SofaUtilsTest {
 		Map<String, String> right = difference.entriesOnlyOnRight();
 		LOGGER.debug(left.toString());
 	}
-	
+
 	@Test
 	public void testSubString() {
 		String str = "hashdhajsdjajsdja";
 		str = str.substring(4, str.length());
 		LOGGER.debug(str);
 	}
-	
+
 }

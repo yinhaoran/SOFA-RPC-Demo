@@ -128,6 +128,7 @@ public final class MessageUserLogin {
 		/**
 		 * <code>string username = 1;</code>
 		 */
+		@Override
 		public java.lang.String getUsername() {
 			java.lang.Object ref = username_;
 			if (ref instanceof java.lang.String) {
@@ -143,6 +144,7 @@ public final class MessageUserLogin {
 		/**
 		 * <code>string username = 1;</code>
 		 */
+		@Override
 		public com.google.protobuf.ByteString getUsernameBytes() {
 			java.lang.Object ref = username_;
 			if (ref instanceof java.lang.String) {
@@ -160,6 +162,7 @@ public final class MessageUserLogin {
 		/**
 		 * <code>string password = 2;</code>
 		 */
+		@Override
 		public java.lang.String getPassword() {
 			java.lang.Object ref = password_;
 			if (ref instanceof java.lang.String) {
@@ -175,6 +178,7 @@ public final class MessageUserLogin {
 		/**
 		 * <code>string password = 2;</code>
 		 */
+		@Override
 		public com.google.protobuf.ByteString getPasswordBytes() {
 			java.lang.Object ref = password_;
 			if (ref instanceof java.lang.String) {
@@ -191,10 +195,12 @@ public final class MessageUserLogin {
 		@java.lang.Override
 		public final boolean isInitialized() {
 			byte isInitialized = memoizedIsInitialized;
-			if (isInitialized == 1)
+			if (isInitialized == 1) {
 				return true;
-			if (isInitialized == 0)
+			}
+			if (isInitialized == 0) {
 				return false;
+			}
 
 			memoizedIsInitialized = 1;
 			return true;
@@ -214,8 +220,9 @@ public final class MessageUserLogin {
 		@java.lang.Override
 		public int getSerializedSize() {
 			int size = memoizedSize;
-			if (size != -1)
+			if (size != -1) {
 				return size;
+			}
 
 			size = 0;
 			if (!getUsernameBytes().isEmpty()) {
@@ -469,8 +476,9 @@ public final class MessageUserLogin {
 			}
 
 			public Builder mergeFrom(com.boomsecret.protobuf.MessageUserLogin.MessageUserLoginRequest other) {
-				if (other == com.boomsecret.protobuf.MessageUserLogin.MessageUserLoginRequest.getDefaultInstance())
+				if (other == com.boomsecret.protobuf.MessageUserLogin.MessageUserLoginRequest.getDefaultInstance()) {
 					return this;
+				}
 				if (!other.getUsername().isEmpty()) {
 					username_ = other.username_;
 					onChanged();
@@ -512,6 +520,7 @@ public final class MessageUserLogin {
 			/**
 			 * <code>string username = 1;</code>
 			 */
+			@Override
 			public java.lang.String getUsername() {
 				java.lang.Object ref = username_;
 				if (!(ref instanceof java.lang.String)) {
@@ -527,6 +536,7 @@ public final class MessageUserLogin {
 			/**
 			 * <code>string username = 1;</code>
 			 */
+			@Override
 			public com.google.protobuf.ByteString getUsernameBytes() {
 				java.lang.Object ref = username_;
 				if (ref instanceof String) {
@@ -581,6 +591,7 @@ public final class MessageUserLogin {
 			/**
 			 * <code>string password = 2;</code>
 			 */
+			@Override
 			public java.lang.String getPassword() {
 				java.lang.Object ref = password_;
 				if (!(ref instanceof java.lang.String)) {
@@ -596,6 +607,7 @@ public final class MessageUserLogin {
 			/**
 			 * <code>string password = 2;</code>
 			 */
+			@Override
 			public com.google.protobuf.ByteString getPasswordBytes() {
 				java.lang.Object ref = password_;
 				if (ref instanceof String) {
@@ -807,6 +819,7 @@ public final class MessageUserLogin {
 		/**
 		 * <code>string access_token = 1;</code>
 		 */
+		@Override
 		public java.lang.String getAccessToken() {
 			java.lang.Object ref = accessToken_;
 			if (ref instanceof java.lang.String) {
@@ -822,6 +835,7 @@ public final class MessageUserLogin {
 		/**
 		 * <code>string access_token = 1;</code>
 		 */
+		@Override
 		public com.google.protobuf.ByteString getAccessTokenBytes() {
 			java.lang.Object ref = accessToken_;
 			if (ref instanceof java.lang.String) {
@@ -839,6 +853,7 @@ public final class MessageUserLogin {
 		/**
 		 * <code>string username = 2;</code>
 		 */
+		@Override
 		public java.lang.String getUsername() {
 			java.lang.Object ref = username_;
 			if (ref instanceof java.lang.String) {
@@ -854,6 +869,7 @@ public final class MessageUserLogin {
 		/**
 		 * <code>string username = 2;</code>
 		 */
+		@Override
 		public com.google.protobuf.ByteString getUsernameBytes() {
 			java.lang.Object ref = username_;
 			if (ref instanceof java.lang.String) {
@@ -870,10 +886,12 @@ public final class MessageUserLogin {
 		@java.lang.Override
 		public final boolean isInitialized() {
 			byte isInitialized = memoizedIsInitialized;
-			if (isInitialized == 1)
+			if (isInitialized == 1) {
 				return true;
-			if (isInitialized == 0)
+			}
+			if (isInitialized == 0) {
 				return false;
+			}
 
 			memoizedIsInitialized = 1;
 			return true;
@@ -893,8 +911,9 @@ public final class MessageUserLogin {
 		@java.lang.Override
 		public int getSerializedSize() {
 			int size = memoizedSize;
-			if (size != -1)
+			if (size != -1) {
 				return size;
+			}
 
 			size = 0;
 			if (!getAccessTokenBytes().isEmpty()) {
@@ -1148,8 +1167,9 @@ public final class MessageUserLogin {
 			}
 
 			public Builder mergeFrom(com.boomsecret.protobuf.MessageUserLogin.MessageUserLoginResponse other) {
-				if (other == com.boomsecret.protobuf.MessageUserLogin.MessageUserLoginResponse.getDefaultInstance())
+				if (other == com.boomsecret.protobuf.MessageUserLogin.MessageUserLoginResponse.getDefaultInstance()) {
 					return this;
+				}
 				if (!other.getAccessToken().isEmpty()) {
 					accessToken_ = other.accessToken_;
 					onChanged();
@@ -1191,6 +1211,7 @@ public final class MessageUserLogin {
 			/**
 			 * <code>string access_token = 1;</code>
 			 */
+			@Override
 			public java.lang.String getAccessToken() {
 				java.lang.Object ref = accessToken_;
 				if (!(ref instanceof java.lang.String)) {
@@ -1206,6 +1227,7 @@ public final class MessageUserLogin {
 			/**
 			 * <code>string access_token = 1;</code>
 			 */
+			@Override
 			public com.google.protobuf.ByteString getAccessTokenBytes() {
 				java.lang.Object ref = accessToken_;
 				if (ref instanceof String) {
@@ -1260,6 +1282,7 @@ public final class MessageUserLogin {
 			/**
 			 * <code>string username = 2;</code>
 			 */
+			@Override
 			public java.lang.String getUsername() {
 				java.lang.Object ref = username_;
 				if (!(ref instanceof java.lang.String)) {
@@ -1275,6 +1298,7 @@ public final class MessageUserLogin {
 			/**
 			 * <code>string username = 2;</code>
 			 */
+			@Override
 			public com.google.protobuf.ByteString getUsernameBytes() {
 				java.lang.Object ref = username_;
 				if (ref instanceof String) {
@@ -1389,6 +1413,7 @@ public final class MessageUserLogin {
 				+ "token\030\001 \001(\t\022\020\n\010username\030\002 \001(\tB+\n\027com.boo"
 				+ "msecret.protobufB\020MessageUserLoginb\006prot" + "o3" };
 		com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner = new com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner() {
+			@Override
 			public com.google.protobuf.ExtensionRegistry assignDescriptors(
 					com.google.protobuf.Descriptors.FileDescriptor root) {
 				descriptor = root;

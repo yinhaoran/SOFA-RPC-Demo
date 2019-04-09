@@ -38,6 +38,8 @@ public class CallBackClientMain {
 	private static final Logger LOGGER = LoggerFactory.getLogger(CallBackClientMain.class);
 
 	public static final String DIRECT_URL = "bolt://127.0.0.1:2222?appName=future-server";
+	
+	private static final int TIMES = 100;
 
 	public static void main(String[] args) throws InterruptedException {
 		ApplicationConfig applicationConfig = new ApplicationConfig().setAppName("future-server");
@@ -70,7 +72,7 @@ public class CallBackClientMain {
 		LOGGER.warn("started at pid {}", RpcRuntimeContext.PID);
 		// String result = helloService.sayHello("xxx");
 		// LOGGER.info("sayHello方法获取响应的结果：" + result);
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < TIMES; i++) {
 			String result = helloService.sayHello("xxx");
 			LOGGER.warn("接口返回结果：" + result);
 			Thread.sleep(2000);

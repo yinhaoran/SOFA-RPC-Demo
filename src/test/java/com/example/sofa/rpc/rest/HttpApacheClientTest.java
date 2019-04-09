@@ -57,7 +57,10 @@ public class HttpApacheClientTest {
 		 */
 		CloseableHttpClient closeableHttpClient = HttpClients.createDefault();
 		HttpPost httpPost = new HttpPost(url);
-		httpPost.setHeader("token", "1qaz2wsx"); // 服务端需要token
+		/**
+		 * 服务端需要token
+		 */
+		httpPost.setHeader("token", "1qaz2wsx"); 
 		String json = JSON.toJSONString(params[0]);
 		StringEntity entity = new StringEntity(json, Charset.forName("UTF-8"));
 		entity.setContentType("application/json");

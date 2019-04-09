@@ -24,6 +24,13 @@ import javax.ws.rs.core.MediaType;
  */
 @Path("swagger")
 public interface OpenApiService {
+	/**
+	 * 
+	 * openApi:(测试swagger). <br/>  
+	 *
+	 * @return  
+	 * @since JDK 1.8
+	 */
 	@GET
 	@Path("openapi")
 	@Produces(MediaType.APPLICATION_JSON)

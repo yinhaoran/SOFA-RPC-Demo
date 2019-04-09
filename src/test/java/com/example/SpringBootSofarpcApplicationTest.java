@@ -19,11 +19,22 @@ import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
 import com.example.service.DemoService;
 import com.example.service.PersonService;
 
+/**
+ * 
+ * ClassName:SpringBootSofarpcApplicationTest 
+ * Function: TODO ADD FUNCTION. 
+ * Reason: TODO ADD REASON(可选).  
+ * date: 2019年4月4日 下午2:23:56 
+ * 
+ * @author yin 
+ * @version   
+ * @since JDK 1.6
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBootSofarpcApplicationTests {
+public class SpringBootSofarpcApplicationTest {
 
-	private final static Logger LOGGER = LoggerFactory.getLogger(SpringBootSofarpcApplicationTests.class);
+	private final static Logger LOGGER = LoggerFactory.getLogger(SpringBootSofarpcApplicationTest.class);
 
 	@SofaReference(interfaceType = DemoService.class, binding = @SofaReferenceBinding(bindingType = "bolt"))
 	private DemoService demoService;

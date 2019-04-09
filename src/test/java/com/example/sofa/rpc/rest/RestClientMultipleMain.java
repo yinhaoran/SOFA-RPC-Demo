@@ -43,8 +43,8 @@ public class RestClientMultipleMain {
 				.setBootstrap(ProtocolType.rest.name()).setDirectUrl("rest://127.0.0.1:8888").setTimeout(3000);
 		final RestService restService = consumerConfig.refer();
 		LOGGER.info("START AT PID {}", RpcRuntimeContext.PID);
-		 String s = restService.get("1234567890");
-		 LOGGER.info("RESPONSE IS {}" ,s);
+		String s = restService.get("1234567890");
+		LOGGER.info("RESPONSE IS {}", s);
 
 //		final int threads = 5;
 //		final ThreadPoolExecutor service1 = new ThreadPoolExecutor(threads, threads, 0L, TimeUnit.MILLISECONDS,

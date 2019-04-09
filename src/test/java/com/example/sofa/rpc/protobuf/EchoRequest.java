@@ -144,10 +144,12 @@ public final class EchoRequest extends com.google.protobuf.GeneratedMessageV3 im
 	@java.lang.Override
 	public final boolean isInitialized() {
 		byte isInitialized = memoizedIsInitialized;
-		if (isInitialized == 1)
+		if (isInitialized == 1) {
 			return true;
-		if (isInitialized == 0)
+		}
+		if (isInitialized == 0) {
 			return false;
+		}
 
 		memoizedIsInitialized = 1;
 		return true;
@@ -167,8 +169,9 @@ public final class EchoRequest extends com.google.protobuf.GeneratedMessageV3 im
 	@java.lang.Override
 	public int getSerializedSize() {
 		int size = memoizedSize;
-		if (size != -1)
+		if (size != -1) {
 			return size;
+		}
 
 		size = 0;
 		if (!getNameBytes().isEmpty()) {
@@ -414,8 +417,9 @@ public final class EchoRequest extends com.google.protobuf.GeneratedMessageV3 im
 		}
 
 		public Builder mergeFrom(com.example.sofa.rpc.protobuf.EchoRequest other) {
-			if (other == com.example.sofa.rpc.protobuf.EchoRequest.getDefaultInstance())
+			if (other == com.example.sofa.rpc.protobuf.EchoRequest.getDefaultInstance()) {
 				return this;
+			}
 			if (!other.getName().isEmpty()) {
 				name_ = other.name_;
 				onChanged();

@@ -35,6 +35,8 @@ import com.example.service.HelloService;
 public class FutrueClientMain {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(FutrueClientMain.class);
+	
+	private static final int TIMES = 100;
 
 	public static void main(String[] args) {
 		ApplicationConfig applicationConfig = new ApplicationConfig().setAppName("future-client");
@@ -50,7 +52,7 @@ public class FutrueClientMain {
 				.setInvokeType(RpcConstants.INVOKER_TYPE_FUTURE).setTimeout(50000)
 				.setDirectUrl("bolt://127.0.0.1:2222?appName=future-server");
 		EchoService echoService = consumerConfig2.refer();
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < TIMES; i++) {
 			try {
 				String str = helloService.sayHello("yhr");
 				LOGGER.warn("must null :{}", str);

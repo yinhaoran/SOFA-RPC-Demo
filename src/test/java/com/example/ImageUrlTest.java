@@ -125,7 +125,10 @@ public class ImageUrlTest {
 		File file = null;
 		try {
 			File dir = new File(filePath);
-			if (!dir.exists() && dir.isDirectory()) {// 判断文件目录是否存在
+			/**
+			 * 判断文件目录是否存在
+			 */
+			if (!dir.exists() && dir.isDirectory()) {
 				dir.mkdirs();
 			}
 			file = new File(filePath + "\\" + fileName);
@@ -210,8 +213,9 @@ public class ImageUrlTest {
 				} else {
 					// System.out.println("文件：" + tmp.getPath());
 					String fileName = tmp.getName();
-					if (fileName.endsWith("java"))
+					if (fileName.endsWith("java")) {
 						System.out.println(fileName);
+					}
 				}
 			}
 		} else {

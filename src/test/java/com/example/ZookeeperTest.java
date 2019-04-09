@@ -32,7 +32,7 @@ public class ZookeeperTest {
 	public static final String ROOT = "/root-ktv";  
 	
 	@Test
-	public void ZooTest() throws Exception {
+	public void zooTest() throws Exception {
 		 /**
 		  *  创建一个与服务器的连接  
 		  */
@@ -41,6 +41,7 @@ public class ZookeeperTest {
 	         * TODO 监控所有被触发的事件
 	         * @see org.apache.zookeeper.Watcher#process(org.apache.zookeeper.WatchedEvent)
 	         */
+	    	@Override
 	        public void process(WatchedEvent event) {  
 	            System.out.println("状态:" + event.getState()+":"+event.getType()+":"+event.getWrapper()+":"+event.getPath());  
 	        }  

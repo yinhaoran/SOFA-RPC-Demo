@@ -10,6 +10,17 @@ import org.springframework.context.annotation.ImportResource;
 import com.example.service.PersonService;
 import com.example.service.impl.HelloSynService;
 
+/**
+ * 
+ * ClassName:SpringBootSofarpcApplication 
+ * Function: TODO ADD FUNCTION. 
+ * Reason: TODO ADD REASON(可选).  
+ * date: 2019年4月4日 上午9:21:13 
+ * 
+ * @author yin 
+ * @version   
+ * @since JDK 1.6
+ */
 @ImportResource({ "classpath*:rest-server-example.xml" })
 @SpringBootApplication
 public class SpringBootSofarpcApplication {

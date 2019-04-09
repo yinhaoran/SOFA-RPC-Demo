@@ -44,7 +44,7 @@ public class BoltServerMain {
 		/**
 		 * 加入远程调用配置
 		 */
-		Map<String, String> parameters = new HashMap<String, String>();
+		Map<String, String> parameters = new HashMap<String, String>(16);
 		parameters.put(RpcConstants.ALLOWED_ORIGINS, "abc.com,cdf.com");
 		// serverConfig.setParameters(parameters);
 		ServerConfig serverConfig = new ServerConfig()

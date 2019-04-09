@@ -133,10 +133,12 @@ public final class EchoResponse extends com.google.protobuf.GeneratedMessageV3 i
 	@java.lang.Override
 	public final boolean isInitialized() {
 		byte isInitialized = memoizedIsInitialized;
-		if (isInitialized == 1)
+		if (isInitialized == 1) {
 			return true;
-		if (isInitialized == 0)
+		}
+		if (isInitialized == 0) {
 			return false;
+		}
 
 		memoizedIsInitialized = 1;
 		return true;
@@ -156,8 +158,9 @@ public final class EchoResponse extends com.google.protobuf.GeneratedMessageV3 i
 	@java.lang.Override
 	public int getSerializedSize() {
 		int size = memoizedSize;
-		if (size != -1)
+		if (size != -1) {
 			return size;
+		}
 
 		size = 0;
 		if (code_ != 0) {
@@ -403,8 +406,9 @@ public final class EchoResponse extends com.google.protobuf.GeneratedMessageV3 i
 		}
 
 		public Builder mergeFrom(com.example.sofa.rpc.protobuf.EchoResponse other) {
-			if (other == com.example.sofa.rpc.protobuf.EchoResponse.getDefaultInstance())
+			if (other == com.example.sofa.rpc.protobuf.EchoResponse.getDefaultInstance()) {
 				return this;
+			}
 			if (other.getCode() != 0) {
 				setCode(other.getCode());
 			}
