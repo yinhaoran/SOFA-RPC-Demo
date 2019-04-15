@@ -7,7 +7,7 @@
  *  
 */
 
-package com.example;
+package com.example.current;
 /**  
  * ClassName:CurrentTest   
  * Date:     2019年4月4日 下午4:59:28  
@@ -34,8 +34,115 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CurrentTest {
-
 	private static final Logger LOGGER = LoggerFactory.getLogger(CurrentTest.class);
+
+	private Object lock = new Object();
+
+	private int num;
+
+	public void increase() {
+		synchronized (lock) {
+			num++;
+		}
+	}
+
+	public int getNum() {
+		synchronized (lock) {
+			return num;
+		}
+	}
+
+	public void m1() {
+		synchronized (lock) {
+			LOGGER.debug("这是第一个方法");
+			m2();
+		}
+	}
+
+	public void m2() {
+		synchronized (lock) {
+			LOGGER.debug("这是第二个方法");
+		}
+	}
+
+	/**
+	 * 
+	 * synmethod:(使用this作为锁). <br/>
+	 * 
+	 * @since JDK 1.8
+	 */
+	public void synmethod() {
+		synchronized (this) {
+			LOGGER.debug("使用this关键字！");
+		}
+	}
+
+	/**
+	 * 
+	 * synStaticMethod:(使用Class对象作为锁). <br/>
+	 * 
+	 * @since JDK 1.8
+	 */
+	public static void synStaticMethod() {
+		// Cannot use this in a static context
+		synchronized (CurrentTest.class) {
+			LOGGER.debug("使用class对象作为锁！");
+		}
+	}
+
+	/**
+	 * 
+	 * synAnotherMethod:(使用Class对象作为锁【简写形式】). <br/>
+	 * 
+	 * @since JDK 1.8
+	 */
+	public synchronized static void synAnotherMethod() {
+		LOGGER.debug("使用class对象作为锁！");
+	}
+
+	private void test(int threadNum, int loopTimes) {
+		// Increment increment = new Increment();
+
+		Thread[] threads = new Thread[threadNum];
+
+		for (int i = 0; i < threads.length; i++) {
+			Thread t = new Thread(new Runnable() {
+				@Override
+				public void run() {
+					for (int i = 0; i < loopTimes; i++) {
+						increase();
+					}
+				}
+			});
+			threads[i] = t;
+			t.start();
+		}
+
+		for (Thread t : threads) { // main线程等待其他线程都执行完成
+			try {
+				t.join();
+			} catch (InterruptedException e) {
+				throw new RuntimeException(e);
+			}
+		}
+
+		LOGGER.debug(threadNum + "个线程，循环" + loopTimes + "次结果：" + getNum());
+	}
+
+	@Test
+	public void increaseTest() {
+		test(20, 1);
+		test(20, 10);
+		test(20, 100);
+		test(20, 1000);
+		test(20, 10000);
+		test(20, 100000);
+	}
+
+	@Test
+	public void testLock() throws Exception {
+		m1();
+	}
 
 	public static void main(String[] args) {
 		ScheduledExecutorService service = Executors.newScheduledThreadPool(10);
@@ -55,6 +162,26 @@ public class CurrentTest {
 		LOGGER.info("计算机CPU数量为： " + num + " 个");
 	}
 
+	public static ThreadLocal<String> THREAD_LOCAL = new ThreadLocal<String>() {
+		@Override
+		protected String initialValue() {
+			return "调用[initialValue]方法初始化的值";
+		}
+	};
+
+	@Test
+	public void testinitialValue() throws Exception {
+		CurrentTest.THREAD_LOCAL.set("与main线程关联的字符串");
+		new Thread(new Runnable() {
+			@Override
+			public void run() {
+				LOGGER.debug("1.INITVALUE-THREAD线程从ThreadLocal中获取的值：" + CurrentTest.THREAD_LOCAL.get());
+				CurrentTest.THREAD_LOCAL.set("与T线程关联的字符串");
+				LOGGER.debug("2.INITVALUE-THREAD线程从ThreadLocal中获取的值：" + CurrentTest.THREAD_LOCAL.get());
+			}
+		}, "INITVALUE-THREAD").start();
+		LOGGER.debug("3.main线程从ThreadLocal中获取的值：" + CurrentTest.THREAD_LOCAL.get());
+	}
 }
 
 class PrintTask implements Runnable {
@@ -208,20 +335,18 @@ class LongTimeTaskTest {
 
 /**
  * 
- * ClassName:StarvationDeadlockDemo 
- * Function: TODO 线程A 依赖 线程B
- * Reason: TODO ADD REASON(可选).  
- * date: 2019年4月9日 上午10:17:23 
+ * ClassName:StarvationDeadlockDemo Function: TODO 线程A 依赖 线程B Reason: TODO ADD
+ * REASON(可选). date: 2019年4月9日 上午10:17:23
  * 
- * @author yin 
- * @version   
+ * @author yin
+ * @version
  * @since JDK 1.6
  */
 class StarvationDeadlockDemo {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(StarvationDeadlockDemo.class);
 
-//	private static ExecutorService service = Executors.newSingleThreadExecutor();
+	// private static ExecutorService service = Executors.newSingleThreadExecutor();
 	private static ExecutorService service = Executors.newFixedThreadPool(2);
 
 	private static class Taska implements Callable<String> {
@@ -243,7 +368,7 @@ class StarvationDeadlockDemo {
 			return "task2";
 		}
 	}
-	
+
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		Future<String> future = service.submit(new Taska());
 		LOGGER.debug("Taska 执行的结果" + future.get());
